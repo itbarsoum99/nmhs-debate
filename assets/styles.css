@@ -392,11 +392,26 @@ hl {
   .hom { display: none; }
   .som { display: block; }
   .logo { display: none; }
-  .entrybox { font-size: 50px; }
+  .entrybox { font-size: 30px; }
   .sub {
-    font-size: 50px;
+    font-size: 30px;
     padding: 16.5px;
     border: 8px solid #00688b;
+  }
+  table, tbody, th, td, tr, thead {
+    display: block;
+  }
+  td {
+    border: none;
+    position; relative;
+    white-space: normal;
+    text-align:left;
+    width: 94%;
+    border-bottom: 2px solid #e8eaed;
+    font-size: 30px; 
+  }
+  p {
+    font-size: 30px;
   }
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -415,5 +430,8 @@ hl {
     display: block;
     width: 100%;
     text-align: left;
+  }
+  .topnav a {
+    font-size: 40px;
   }
 }
