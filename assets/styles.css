@@ -51,6 +51,10 @@ h3, h4 {
   font-size: 1.5em;
 }
 
+h5 {
+  font-size: 1.3em;
+}
+
 h2, h3, h4 {
   font-weight: 700;
 }
