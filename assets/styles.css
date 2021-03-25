@@ -402,6 +402,9 @@ hl {
     padding: 16.5px;
     border: 8px solid #00688b;
   }
+  .content {
+    padding-top: 5vh;
+  }
   table, tbody, th, td, tr, thead {
     display: block;
   }
