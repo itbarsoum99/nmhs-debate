@@ -431,7 +431,7 @@ hl {
     width: 100%;
     text-align: left;
   }
-  .topnav a {
+  .topnav a, .dropbtn {
     font-size: 40px;
   }
 }
