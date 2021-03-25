@@ -185,6 +185,11 @@ hl {
   cursor: pointer;
 }
 
+.entrybox {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
