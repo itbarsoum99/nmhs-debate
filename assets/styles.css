@@ -413,6 +413,9 @@ hl {
   p {
     font-size: 30px;
   }
+  small {
+    font-size: 20px;
+  }
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
