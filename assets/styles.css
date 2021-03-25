@@ -192,6 +192,8 @@ hl {
 .entrybox {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  background-color: #e8eaed !important;
+  border: 1px solid grey;
 }
 
 
@@ -381,19 +383,37 @@ hl {
 }
 
 @media (pointer:coarse) {
-  h1 {
-    font-size: 5em;
+  h1 { font-size: 10em; }
+  h2 { font-size: 5em; }
+  h3, h4 { font-size: 3em; }
+  h5 { font-size: 2em; }
+  #join { font-size: 40px; }
+  .box { width: 75vw !important; }
+  .hom { display: none; }
+  .som { display: block; }
+  .logo { display: none; }
+  .entrybox { font-size: 50px; }
+  .sub {
+    font-size: 50px;
+    padding: 16.5px;
+    border: 8px solid #00688b;
   }
-  #join {
-    font-size: 40px;
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  .box {
-    width: 800px !important;
-  }
-  .hom {
-    display: none;
-  }
-  .som {
+  .topnav.responsive a {
+    float: none;
     display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
   }
 }
