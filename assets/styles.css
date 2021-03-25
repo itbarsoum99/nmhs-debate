@@ -169,14 +169,14 @@ hl {
 }
 
 .sub {
-  padding: 13.5px;
+  padding: 8.5px;
   border: 2px solid #00688b;
   background-color: transparent;
   font-family: 'Roboto', sans-serif;
   transition: 0.2s;
   color: #202124;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .sub:hover {
