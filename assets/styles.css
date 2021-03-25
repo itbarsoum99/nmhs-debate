@@ -67,7 +67,6 @@ b {
   padding-left: 7vw;
   padding-right: 7vw;
   padding-top: 10vh;
-  padding-bottom: 10vh;
 }
 
 .logo {
@@ -417,7 +416,7 @@ hl {
     border-bottom: 2px solid #e8eaed;
     font-size: 30px; 
   }
-  p {
+  p, li {
     font-size: 22px !important;
   }
   small {
