@@ -150,6 +150,10 @@ td {
   font-style: italic;
 }
 
+#debimg {
+  width: 175px;
+}
+
 .faq {
   margin-bottom: 2vh;
 }
@@ -416,8 +420,11 @@ hl {
     border-bottom: 2px solid #e8eaed;
     font-size: 30px; 
   }
-  p, li {
+  p {
     font-size: 22px !important;
+  }
+  li {
+    font-size: 19px !important;
   }
   small {
     font-size: 20px;
